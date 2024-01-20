@@ -1,0 +1,79 @@
+
+.navbar{
+  background-color: black;
+  overflow: hidden;
+}
+.navbar .link{
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  padding: 14px 16px;
+}
+.log{
+   width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+.log1{
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(22, 21, 34);
+  width: 379px;
+  height: 348px; 
+  align-items:center ;
+  justify-content: center;
+  border-radius: 35px;
+  
+  
+  
+}
+input{
+  margin: 10px;
+
+}
+input::placeholder{
+  text-align: center;
+}
+.input1{
+  width: 254px;
+  height: 40px;
+  border-radius: 20px;
+}
+.btn{
+  width: 97px;
+  height: 25px;
+  cursor: pointer;
+  margin: 15px;
+}
+.cl{
+  color: white;
+  text-align: center;
+}
+.link{
+  color: rgb(208, 208, 0);
+  text-decoration: none;
+}
+.back{
+  display: flex;
+  height: 100vh;
+  background-image: url('https://img.freepik.com/free-photo/abstract-digital-grid-black-background_53876-97647.jpg?w=1060&t=st=1705508340~exp=1705508940~hmac=5acf808ec5e0cb033cf0b3b85bce45857ce81c3e809e5cad57003268fe2385cc');
+  background-size: cover;
+  
+}
+.twit{
+  text-align: center;
+  color: brown;
+  
+}
+.p1{
+  color: white;
+  margin-bottom: 4px;
+}
+a{
+  text-decoration: none;
+}
